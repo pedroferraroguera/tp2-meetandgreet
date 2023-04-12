@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Poppins", sans-serif; /*cambio el tipo de letra */
+    background-color: #ffffff; /*cambio el color de fondo */
+    color: black; /*cambio el color de la letra*/
+  }
+
+h1 {
+    font-family: 'Lexend Tera';
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-image: url(img/hasbufondobig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 300px;
+    color: white;
+    vertical-align: top;
+    height: 130vh;
+
+} 
+
+header div {
+    padding-top: 100px;
+}
+
+
+section{
+    background-color: black;
+    color: white;
+}
+
+.quien {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quien div{
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+
+.quien div h2{
+    padding-bottom: 10px;
+}
+
+.quien div img{
+    width: 100%;
+    border-radius: 20px;
+}
+    
+
+.marcas{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.marcas div {
+    width: 7%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.marcas div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form h2 {
+    padding: 30px;
+    text-align: center;
+}
+
+#formData {
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+
+#formData select{
+    width: 100%;
+    
+}
+
+#formData input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    
+}
+
+#formData textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#formData>div{
+    margin-bottom: 2em;
+}
+
+.form input [type=submit]{
+    font-size: 200px;
+    background: tomato;
+}
+
+@media (max-width: 1000px){
+    .form {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .quien div {
+        width: 90%;
+    }
+    
+    .marcas div {
+        width: 10%;
+        border-radius: 1px;
+    }
+
+    .form {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .quien div {
+        width: 90%;
+    }
+
+    .marcas div {
+        width: 10%;
+        border-radius: 1px;
+    }
+
+}
+
